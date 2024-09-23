@@ -1,0 +1,31 @@
+{
+  "name": "express-basic-starter",
+  "version": "1.0.0",
+  "description": "A minimal Express.js server configured with dotenv to manage environment variables. This project serves as a simple starting point for backend development using modern JavaScript (ESM).",
+  "main": "index.mjs",
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasroun/express-basic-starter.git"
+  },
+  "author": "lasroun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lasroun/express-basic-starter/issues"
+  },
+  "homepage": "https://github.com/lasroun/express-basic-starter#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
